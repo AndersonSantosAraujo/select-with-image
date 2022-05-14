@@ -12,14 +12,14 @@
 #### HTML
 1.1 Crie a seguinte estrutura
 
-`code`    <div class="nav__select">
-`code`      <span class="nav__select__display" data-select="true" id=""></span>
-`code`      <ul class="nav__select__select select-box">
-`code`        <li class="select-box__item" id="language-pt-br"><a href="#"><img src="img/flag_pt_br.png" /></a></li>
-`code`        <li class="select-box__item" id="language-en"><a href="#"><img src="img/flag_en.png" /></a></li>
-`code`        <li class="select-box__item" id="language-es"><a href="#"><img src="img/flag_es.png" /></a></li>
-`code`      </ul>
-`code`    </div>
+    <div class="nav__select">
+      <span class="nav__select__display" data-select="true" id=""></span>
+      <ul class="nav__select__select select-box">
+       <li class="select-box__item" id="language-pt-br"><a href="#"><img src="img/flag_pt_br.png" /></a></li>
+        <li class="select-box__item" id="language-en"><a href="#"><img src="img/flag_en.png" /></a></li>
+        <li class="select-box__item" id="language-es"><a href="#"><img src="img/flag_es.png" /></a></li>
+      </ul>
+    </div>
 
 --------------------------------------------------------------------------------------------------------------------------------
 
