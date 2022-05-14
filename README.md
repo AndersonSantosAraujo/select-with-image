@@ -21,6 +21,65 @@
       </ul>
     </div>
 ```
+#### CSS
+1. Crie a seguinte estrutura
+```
+    .nav__select {
+      display: flex;
+    }
+
+    .nav__select__display {
+      position: relative;
+      width: 60px;
+      height: 35px;
+      background-color: #fff;
+      cursor: pointer;
+      background-repeat: no-repeat;
+      background-position: 15% center;
+      border-radius: 5px;
+    }
+
+    .nav__select__display::after {
+      content: "";
+      position: absolute;
+      top: 40%;
+      right: 5px;
+      padding: 4px;
+      box-shadow: 2px -2px 0 1px #000 inset;
+      border: solid transparent;
+      border-width: 0 0 2px 2px;
+      transform: rotate(-45deg);
+    }
+
+    .select-box {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      width: 40px;
+      top: 70px;
+      background-color: #fff;
+      border-radius: 5px;
+    }
+
+    .select-box.active {
+      display: flex;
+    }
+
+    .select-box__item {
+      width: 100%;
+      cursor: pointer;
+    }
+
+    .select-box__item:hover {
+      background-color: #00000095;
+    }
+
+    .select-box__item a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+```
 
 ### Como Usar o 'Translate'
 
