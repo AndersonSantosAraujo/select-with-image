@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Select Image with Translate</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="nav">
+    <!-- SELECT - START -->
+    <div class="nav__select">
+      <span class="nav__select__display" data-select="true" id=""></span>
+      <ul class="nav__select__select select-box">
+        <li class="select-box__item" id="language-pt-br"><a href="#"><img src="img/flag_pt_br.png" /></a></li>
+        <li class="select-box__item" id="language-en"><a href="#"><img src="img/flag_en.png" /></a></li>
+        <li class="select-box__item" id="language-es"><a href="#"><img src="img/flag_es.png" /></a></li>
+        <li class="select-box__item" id="language-fr"><a href="#"><img src="img/flag_fr.png" /></a></li>
+        <li class="select-box__item" id="language-de"><a href="#"><img src="img/flag_de.png" /></a></li>
+        <li class="select-box__item" id="language-cn"><a href="#"><img src="img/flag_cn.png" /></a></li>
+      </ul>
+    </div>
+    <!-- SELECT - END -->
+  </header>
+
+  <main class="main">
+    <div class="main__title">
+      <!-- no HTML tem que inserir o [data-translate='language-pt'] nas TAGS onde será traduzida -->
+      <h1 data-translate="language-pt-br">Se a educação lhe parece cara, não queira saber o preço da ignorância.</h1>
+      <h1 data-translate="language-en">If education seems expensive to you, don't ask the price of ignorance.</h1>
+      <h1 data-translate="language-es">Si la educación te parece cara, no preguntes el precio de la ignorancia.</h1>
+      <h1 data-translate="language-fr">Si l'éducation vous paraît chère, ne demandez pas le prix de l'ignorance.</h1>
+      <h1 data-translate="language-de">Wenn Ihnen Bildung teuer erscheint, fragen Sie nicht nach dem Preis der Unwissenheit.</h1>
+      <h1 data-translate="language-cn">如果教育对你来说很昂贵，不要问无知的代价。</h1>
+    </div>
+  </main>
+
+  <!-- Scripts -->
+  <script type="module" src="js/script.js"></script>
+</body>
+
+</html>
