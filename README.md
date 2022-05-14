@@ -35,20 +35,20 @@
 #### HTML
 2.1 Crie a seguinte estrutura
 
-`code`      <!-- no HTML tem que inserir o [data-translate='language-pt'] nas TAGS onde será traduzida -->
-`code`      <h1 data-translate="language-pt-br">Se a educação lhe parece cara, não queira saber o preço da ignorância.</h1>
-`code`      <h1 data-translate="language-en">If education seems expensive to you, don't ask the price of ignorance.</h1>
-`code`      <h1 data-translate="language-es">Si la educación te parece cara, no preguntes el precio de la ignorancia.</h1>
+  <!-- no HTML tem que inserir o [data-translate='language-pt'] nas TAGS onde será traduzida -->
+  <h1 data-translate="language-pt-br">Se a educação lhe parece cara, não queira saber o preço da ignorância.</h1>
+  <h1 data-translate="language-en">If education seems expensive to you, don't ask the price of ignorance.</h1>
+  <h1 data-translate="language-es">Si la educación te parece cara, no preguntes el precio de la ignorancia.</h1>
 
 #### CSS
 2.1 Crie a seguinte estrutura
 
-`code`  [data-translate] {
-`code`    display: block !important;
-`code`  }
+  [data-translate] {
+    display: block !important;
+  }
 
-`code`  [data-translate].is-hidden {
-`code`    display: none !important;
-`code`  }
+  [data-translate].is-hidden {
+    display: none !important;
+  }
 
 
