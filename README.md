@@ -6,7 +6,7 @@
 1. Copie a pasta modules
 2. Import a classe dentro do seu script
 3. Instancie a classe com os parâmetros:
-> SelectBlock(class_da_lista_ul, class_de_ativo, class_do_span_selecionado, class_de_cada_item_da_lista, armazena_no_local_storage?(bool), nome_armazena_no_local_storage(opcional))
+> const selectBlock = new SelectBlock(class_da_lista_ul, class_de_ativo, class_do_span_selecionado, class_de_cada_item_da_lista, armazena_no_local_storage?(bool), nome_armazena_no_local_storage(opcional))
 4. Inicie a classe com selectBlock.init();
 
 #### HTML
@@ -87,8 +87,8 @@
 1. Copie a pasta modules
 2. Import a classe dentro do seu script
 3. Instancie a classe com os parâmetros:
-> Translate(class_de_cada_item_da_lista_do_select, class_de_desativado, class_do_span_selecionado, armazena_no_local_storage(bool), nome_armazena_no_local_storage(opcional))
-4. Inicie a classe com selectBlock.init();
+> const Translate = new Translate(class_de_cada_item_da_lista_do_select, class_de_desativado, class_do_span_selecionado, armazena_no_local_storage(bool), nome_armazena_no_local_storage(opcional))
+4. Inicie a classe com Translate.init();
 
 #### HTML
 1. Crie a seguinte estrutura
