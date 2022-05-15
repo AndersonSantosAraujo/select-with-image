@@ -1,5 +1,7 @@
 # 'Select' Com Imagem & Script 'Translate'
 
+> Exemplo: https://andersonsantosaraujo.github.io/select-with-image/
+
 ### Como Usar o 'Select'
 
 #### JS
