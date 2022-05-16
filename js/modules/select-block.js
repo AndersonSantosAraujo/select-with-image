@@ -21,7 +21,7 @@ export default class SelectBlock {
     const lang = localStorage.getItem(this.nameLocal);
     if (this.boolStorage === false || !lang) this.indexLang = 0;
     else {
-      const boxItem = document.querySelectorAll(".select-box__item");
+      const boxItem = document.querySelectorAll(this.selectItens);
       boxItem.forEach((element, index) => {
         if (element.matches(`#language-${lang}`)) this.indexLang = index;
       });
