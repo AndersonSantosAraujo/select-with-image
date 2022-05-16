@@ -24,7 +24,7 @@ export default class Translate {
   /* Monta o array de idiomas */
   onLanguages() {
     this.arrayLanguage = [];
-    const items = document.querySelectorAll(".select-box__item");
+    const items = document.querySelectorAll(this.selectItens);
     items.forEach((element) => {
       const elementId = element.getAttribute("id");
       const lang = elementId.replace("language-", "");
