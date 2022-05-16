@@ -1,4 +1,4 @@
-class SelectBlock {
+export default class SelectBlock {
     constructor(menu, classActive, displayItem, selectItens, boolStorage, nameLocal = 'language') {
         this.menu = document.querySelector(menu);
         this.classActive = classActive;
